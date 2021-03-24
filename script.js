@@ -10,7 +10,7 @@ function pricing () {
   document.getElementById('text1').value
   document.getElementById('text2').value
   age = parseInt(age)
-  if ((age >= 12 && age <= 21) && (day === Wednesday || day == Thursday)) {
+  if ((age >= 12 && age <= 21) && (day === Wednesday || day === Thursday)) {
     document.getElementById('results').innerHTML = 'You are eligible for the student pricing!'
   } else {
     document.getElementById('results').innerHTML = 'You are not eligible for student pricing.'
